@@ -1,0 +1,24 @@
+{
+  "name": "ecommerce-",
+  "version": "1.0.0",
+  "description": "this a Ecommerce web-site ",
+  "main": "backend/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "abhishek kumar",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.5.2",
+    "nodemailer": "^6.7.3",
+    "nodemon": "^2.0.15",
+    "validator": "^13.7.0"
+  }
+}
